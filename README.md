@@ -26,8 +26,18 @@ This RESTful API provides CRUD (Create, Read, Update, Delete) functionalities fo
 ## Usage
 
 1. **Create a User**: `POST /user`
-2. **Get All Users**: `GET /user`
-3. **Get a User by ID**: `GET /user/:id`
-4. **Update a User**: `PUT /user/:id`
-5. **Delete a User**: `DELEuE /user/:id`
+   Payload: `{
+    	"name": "Prueba",
+    	"email": "prueba5@prueba.com",
+    	"phone": "33310109944"
+    }`
+3. **Get All Users**: `GET /user`
+4. **Get a User by ID**: `GET /user/:id`
+5. **Update a User**: `PUT /user/:id`
+   Payload: `{
+    	"name": "Prueba",
+    	"email": "prueba5@prueba.com",
+    	"phone": "33310109944"
+    }`
+7. **Delete a User**: `DELETE /user/:id`
 
