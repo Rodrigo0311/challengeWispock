@@ -25,9 +25,9 @@ This RESTful API provides CRUD (Create, Read, Update, Delete) functionalities fo
 
 ## Usage
 
-1. **Create a User**: `POST /api/users`
+1. **Create a User**: `POST /api/user`
 2. **Get All Users**: `GET /api/users`
-3. **Get a User by ID**: `GET /api/users/:id`
-4. **Update a User**: `PUT /api/users/:id`
-5. **Delete a User**: `DELETE /api/users/:id`
+3. **Get a User by ID**: `GET /api/user/:id`
+4. **Update a User**: `PUT /api/user/:id`
+5. **Delete a User**: `DELETE /api/user/:id`
 
